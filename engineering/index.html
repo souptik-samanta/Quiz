@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module" src="export.js"></script>
+</head>
+<body>
+   <div class="question-panel">
+    <div class="head">
+        <header>Engineering</header>
+         <i class="fa fa-tick" style="display: none;"></i>
+        <span>Time Left:<h2 id="time" style="font-size: 18px"></h2></span>
+    </div>
+    <div class="question-1">
+        <div class="q-area">
+            <h2>Q1. What is the full form of <i>const</i> in JavaScriptS?</h2>
+            <img src="const.webp" alt="">
+            <div id="wrong-2" onclick="wrong()"><span>Contituent</span></div>
+            <div id="wrong-1" onclick="wrong()"><span>Consists</span></div>
+            <div id="correct" onclick="correct(); "><span>Constant</span></div>
+            <div id="wrong-3" onclick="wrong()"><span>None of the above</span></div>
+        </div>
+        <div class="footer">
+
+            <h3>1/10 Questions</h3>
+        </div>
+    </div>
+    <div class="question-2">
+        
+        <div class="q-area">
+            <h2>Q2. What is the full form of <i>var</i> in JavaScript?</h2>
+            <img src="varimg.png" alt="">
+            <div id="wrong-4" onclick="wrong1()"><span>Varying</span></div>
+            <div id="wrong-5" onclick="wrong1()"><span>Varies</span></div>
+            <div id="correct-1" onclick="correct1()"><span>Variable</span></div>
+            <div id="wrong-6" onclick="wrong1()"><span>Variety</span></div>
+        </div>
+        <div class="footer">
+           
+            <h3>2/10 Questions</h3>
+        </div>
+    </div>
+    <div class="question-3">
+        <div class="q-area">
+            <h2>Q3. What is the full form of <i>char</i> in Java programming?</h2>
+            <img src="char.png" alt="" srcset="">
+            <div id="wrong-7" onclick="wrong2()"><span>Alpha-Numeric</span></div>
+            <div id="correct-2" onclick="correct2();"><span>Character</span></div>
+            <div id="wrong-8" onclick="wrong2()"><span>Numeric Characters</span></div>
+            <div id="wrong-9" onclick="wrong2()"><span>None of the above</span></div>
+        </div>
+        <div class="footer">
+            
+            <h3>3/10 Questions</h3>
+        </div>
+    </div>
+    <div class="question-4">
+        <div class="q-area">
+            <h2>Q4. Choose an example of loops from the below given options in JavaScript.</h2>
+            <img src="loops.jpg" alt="" srcset="">
+            <div id="wrong-12" onclick="wrong3()"><span>for</span></div>
+            <div id="wrong-10" onclick="wrong3()"><span>else</span></div>
+            <div id="wrong-11" onclick="wrong3()"><span>if</span></div>
+            <div id="correct-3" onclick="correct3();"><span>All Of The Above</span></div>
+        </div>
+        <div class="footer">
+            
+            <h3>4/10 Questions</h3>
+        </div> 
+    </div>
+    <div class="question-5">
+        <div class="q-area">
+            <h2>Q5. To print something in console, what do we write in JS?</h2>
+            <img src="console.avif" alt="" srcset="">
+            <div id="correct-4" onclick="correct4();"><span>console.log()</span></div>
+            <div id="wrong-13" onclick="wrong4()"><span>console.write()</span></div>
+            <div id="wrong-14" onclick="wrong4()"><span>console.print()</span></div>
+            <div id="wrong-15" onclick="wrong4()"><span>console.display()</span></div>
+        </div>
+        <div class="footer">
+            
+            <h3>5/10 Questions</h3>
+        </div>   
+    </div>
+   </div>
+   <div class="thanks-for-completing" style="display: none;">
+    <header>Thanks For Completing This Quiz!</header>
+  </div>
+</body>
+</html>

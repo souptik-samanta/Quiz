@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module" src="export.js"></script>
+</head>
+<body>
+   <div class="question-panel">
+    <div class="head">
+        <header>Mathematics</header>
+        <span>Time Left:<h2 id="time" style="font-size: 18px"></h2></span>
+    </div>
+    
+    <div class="question-1">
+        <div class="q-area">
+            <h2>Q1. What Is The Square Root Of 9?</h2>
+            <img src="nine.jpg" alt="">
+            <div id="wrong-2" onclick="wrong()"><span>3 x 3 + 4 / (-2)</span></div>
+            <div id="wrong-1" onclick="wrong()"><span>2 + (-3)</span></div>
+            <div id="correct" onclick="correct(); "><span>3 x √4 - 3</span></div>
+            <div id="wrong-3" onclick="wrong()"><span>None Of The Above</span></div>
+        </div>
+        <div class="footer">
+
+            <h3>1/10 Questions</h3>
+        </div>
+    </div>
+    <div class="question-2">
+        <div class="q-area">
+            <h2>Q2. How do you solve (4x + 11y) (4x - 11y) using identity?</h2>
+            <img src="a-square.png" alt="">
+            <div id="wrong-4" onclick="wrong1()"><span>a - b</span></div>
+            <div id="wrong-5" onclick="wrong1()"><span>ab² - ba²</span></div>
+            <div id="correct-1" onclick="correct1()"><span>(a² - b²)</span></div>
+            <div id="wrong-6" onclick="wrong1()"><span>a² - 2ab - b²</span></div>
+        </div>
+        <div class="footer">
+           
+            <h3>2/10 Questions</h3>
+        </div>
+    </div>
+    <div class="question-3">
+        <div class="q-area">
+            <h2>Q3. If + = -, - = +, Calculate = 7x + √(2)²x - 24y</h2>
+            <img src="algebra.png" alt="" srcset="">
+            <div id="wrong-7" onclick="wrong2()"><span>9x - 24y (Remember, here also + equals - and - equals +)</span></div>
+            <div id="correct-2" onclick="correct2();"><span>5x + 24y (Remember, here also + equals - and - equals +)</span></div>
+            <div id="wrong-8" onclick="wrong2()"><span>3x + (2 x 2)y(Remember, here also + equals - and - equals +)</span></div>
+            <div id="wrong-9" onclick="wrong2()"><span>None of the above</span></div>
+        </div>
+        <div class="footer">
+            
+            <h3>3/10 Questions</h3>
+        </div>
+    </div>
+    <div class="question-4">
+        <div class="q-area">
+            <h2>Q4. What is 2x - (2)²x?</h2>
+            <img src="somealgebra.webp" alt="" srcset="">
+            <div id="wrong-12" onclick="wrong3()"><span>4x</span></div>
+            <div id="correct-3" onclick="correct3()"><span>-2x</span></div>
+            <div id="wrong-11" onclick="wrong3()"><span>2x - 4x</span></div>
+            <div id="wrong-10" onclick="wrong3();"><span>2 - 3x</span></div>
+        </div>
+        <div class="footer">
+            
+            <h3>4/10 Questions</h3>
+        </div> 
+    </div>
+    <div class="question-5">
+        <div class="q-area">
+            <h2>Q5. What Is (-1)³²³­³?</h2>
+            <div id="correct-4" onclick="correct4();"><span>-1</span></div>
+            <div id="wrong-13" onclick="wrong4()"><span>1</span></div>
+            <div id="wrong-14" onclick="wrong4()"><span>1 x 1</span></div>
+            <div id="wrong-15" onclick="wrong4()"><span>(-1) x (-1)</span></div>
+        </div>
+        <div class="footer">
+            
+            <h3>5/10 Questions</h3>
+        </div>   
+    </div>
+   </div>
+   <div class="thanks-for-completing" style="display: none;">
+    <header>Thanks For Completing This Quiz!</header>
+  </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module" src="export.js"></script>
+</head>
+<body>
+   <div class="question-panel">
+    <div class="head">
+        <header>Technology</header>
+        <span>Time Left:<h2 id="time" style="font-size: 18px"></h2></span>
+    </div>
+    <div class="question-1">
+        <div class="q-area">
+            <h2>Q1.	'OS' computer abbreviation usually means ?</h2>
+            <img src="os.webp" alt="">
+            <div id="wrong-2" onclick="wrong()"><span>Optical Sensor</span></div>
+            <div id="wrong-1" onclick="wrong()"><span>Order of Significance</span></div>
+            <div id="correct" onclick="correct(); "><span>Operating System</span></div>
+            <div id="wrong-3" onclick="wrong()"><span>Open Software</span></div>
+        </div>
+        <div class="footer">
+
+            <h3>1/10 Questions</h3>
+        </div>
+    </div>
+    <div class="question-2">
+        
+        <div class="q-area">
+            <h2>Q2. What is the software for .mp4 file format?</h2>
+            <img src="mp4.jpg" alt="">
+            <div id="wrong-4" onclick="wrong1()"><span>Audio.</span></div>
+            <div id="wrong-5" onclick="wrong1()"><span>Image</span></div>
+            <div id="correct-1" onclick="correct1()"><span>Video</span></div>
+            <div id="wrong-6" onclick="wrong1()"><span>Package</span></div>
+        </div>
+        <div class="footer">
+           
+            <h3>2/10 Questions</h3>
+        </div>
+    </div>
+    <div class="question-3">
+        <div class="q-area">
+            <h2>Q3. Full Form Of ROM -- </h2>
+            <img src="rom.jpg" alt="" srcset="">
+            <div id="wrong-7" onclick="wrong2()"><span>Random-Only Memory</span></div>
+            <div id="correct-2" onclick="correct2();"><span>Read-Only Memory</span></div>
+            <div id="wrong-8" onclick="wrong2()"><span>Random On Memory</span></div>
+            <div id="wrong-9" onclick="wrong2()"><span>Rendering On Memory</span></div>
+        </div>
+        <div class="footer">
+            
+            <h3>3/10 Questions</h3>
+        </div>
+    </div>
+    <div class="question-4">
+        <div class="q-area">
+            <h2>Q4. Who invented the computer?</h2>
+            <img src="charles babbage.jpg" alt="" srcset="">
+            <div id="wrong-12" onclick="wrong3()"><span>Lady Ada Lovelace Augusta</span></div>
+            <div id="wrong-10" onclick="wrong3()"><span>IBM</span></div>
+            <div id="wrong-11" onclick="wrong3()"><span>Jacquard</span></div>
+            <div id="correct-3" onclick="correct3();"><span>Charles Babbage</span></div>
+        </div>
+        <div class="footer">
+            
+            <h3>4/10 Questions</h3>
+        </div> 
+    </div>
+    <div class="question-5">
+        <div class="q-area">
+            <h2>Q5. What is the latest version of the Windows Operating System (except servers)?</h2>
+            <img src="windows.png" alt="" srcset="">
+            <div id="correct-4" onclick="correct4();"><span>Windows 10</span></div>
+            <div id="wrong-13" onclick="wrong4()"><span>Windows 8</span></div>
+            <div id="wrong-14" onclick="wrong4()"><span>Windows 11</span></div>
+            <div id="wrong-15" onclick="wrong4()"><span>Windows Vista</span></div>
+        </div>
+        <div class="footer">
+            
+            <h3>5/10 Questions</h3>
+        </div>   
+    </div>
+   </div>
+   <div class="thanks-for-completing" style="display: none;">
+    <header>Thanks For Completing This Quiz!</header>
+  </div>
+</body>
+</html>

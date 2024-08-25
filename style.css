@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Montserrat:wght@100&family=Open+Sans&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Montserrat:wght@100&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background:#eee;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+.top-template {
+    height: 1.2cm;
+    width: 100%;
+    margin-top: -100px;
+    background: #fff;
+}
+.front {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.front .first-part {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.front .second-part {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.front i {
+    font-size: 50px;
+}
+.front {
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+.front a {
+    height: 5cm;
+    width: 5cm;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    text-decoration: none;
+}
+.front a:hover {
+    height: 5.8cm;
+    width: 5.8cm;
+    opacity: 0.7;
+}
+.front .science-bx {
+    background-color: #f55;
+    color: #fff;
+}
+.front .tech-bx {
+    background-color: green;
+    color: #fff;
+}
+.front .engineering-bx {
+    background-color: goldenrod;
+    color: #fff;
+}
+.front .math-bx {
+    background-color: #123;
+    color: #fff;
+}
+.blocks {
+   position: absolute;
+   top: 87%;
+   font-size: 60px;
+   font-family: 'Poppins';
+   font-weight: bolder;
+}
+.blocks span:nth-child(1) {
+    color: #f55;
+}
+.blocks span:nth-child(2) {
+    color: green;
+}
+.blocks span:nth-child(3) {
+    color: goldenrod;
+}
+.blocks span:nth-child(4) {
+    color: #123;
+}
+.thanks-for-completing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
